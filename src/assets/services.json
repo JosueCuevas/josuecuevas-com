@@ -1,0 +1,56 @@
+{
+  "services": [
+    {
+      "title": "Desarrollo Frontend",
+      "description": "Crear sitios web visualmente atractivos y fáciles de usar utilizando HTML, CSS y JavaScript, optimizando la experiencia del usuario y la capacidad de respuesta en diferentes dispositivos",
+      "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644293/josuecuevas-com/images/frontend_rsojcy_whyhoh.webp)"
+    },
+    {
+      "title": "Desarrollo Backend",
+      "description": "Construir aplicaciones del lado del servidor robustas y escalables utilizando Node.js y frameworks como Express. Desarrollar bases de datos seguras e integrar las API para garantizar una funcionalidad y una gestión de datos eficiente",
+      "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644295/josuecuevas-com/images/backend_yk5qvj_ik1swm.webp)"
+    },
+    {
+      "title": "Diseño Responsivo",
+      "description": "Asegurar que el sitio o aplicación web se vea y funcione perfectamente en varios dispositivos, incluidos equipos de escritorio, tabletas y dispositivos móviles. ",
+      "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644336/josuecuevas-com/images/responsive_qhdeq8_szga5a.webp)"
+    },
+    {
+      "title": "Soluciones de comercio electrónico",
+      "description": "Desarrollar una tienda en línea personalizada con métodos de pagos seguros, sistemas gestores de inventarios e interfaces amigables, habilitando tu empresa a vender productos o servicios en línea de manera efectiva",
+      "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644297/josuecuevas-com/images/e-commerce_slwkmn_qjdskr.webp)"
+    },
+    {
+      "title": "Desarrollo de aplicaciones Web",
+      "description": "Construir aplicaciones web dinámicas e interactivas usando la librería de React.js para implementar funcionalidades complejas, actualizaciones en tiempo real e interacciones de usuario perfectas",
+      "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/webapp_rct3w7_xrfymo.webp)"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Trabajo de calidad",
+      "description": "Me enorgullece ofrecer un código limpio y bien estructurado que se adhiere a las mejores prácticas de la industria, lo que garantiza que su proyecto sea confiable, fácil de mantener y escalable.",
+      "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644316/josuecuevas-com/images/quality_fmoi9l_k3ydul.webp"
+    },
+    {
+      "title": "Atención a los detalles",
+      "description": "Presto mucha atención a los requisitos de su proyecto, asegurándome de que cada aspecto se planifique y ejecute meticulosamente para cumplir con sus objetivos.",
+      "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644289/josuecuevas-com/images/details_zcj6gt_aapkaw.webp"
+    },
+    {
+      "title": "Enfoque colaborativo",
+      "description": "Creo en la comunicación abierta y la colaboración durante todo el proceso de desarrollo, asegurando que su visión se traduzca en una solución digital exitosa.",
+      "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/collaborative_lyx9gh_aixc6p.webp"
+    },
+    {
+      "title": "Entrega oportuna",
+      "description": "Entiendo la importancia de cumplir con los plazos. Me esfuerzo por entregar proyectos dentro de los plazos acordados sin comprometer la calidad.",
+      "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644334/josuecuevas-com/images/time_lmi0cp_qfxsyg.webp"
+    },
+    {
+      "title": "Soporte excepcional",
+      "description": "Incluso después de la finalización del proyecto, brindo soporte y asistencia continuos para abordar cualquier inquietud o actualización que pueda necesitar.",
+      "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/support_izccmh_wk9ad4.webp"
+    }
+  ]
+}

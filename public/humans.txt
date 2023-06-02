@@ -1,0 +1,32 @@
+/* Josué Cuevas - https://josuecuevas.com */
+
+#TEAM 
+
+Designer & Developer:  Josué Cuevas
+Contact: hola [at] josuecuevas.com
+Github: https://github.com/JosueCuevas
+Twitter: @josuecuevs
+Location: Oaxaca, Mexico
+
+#TECHNOLOGY
+
+##  Software
+
+  - Visual Studio Code
+  - Git + Github
+  - React.js
+  - Typescript
+
+## Host
+
+  - Frontend : Netlify
+
+## Resources
+
+https://jonmircha.com/
+https://cloudinary.com/
+https://fonts.googleapis.com
+https://unsplash.com/
+
+
+

@@ -1,0 +1,5 @@
+User-agent: *
+
+# Sitemap: https://josuecuevas.com/sitemap.xml
+
+Disallow: ./404/404.html

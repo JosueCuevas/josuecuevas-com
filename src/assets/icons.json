@@ -1,0 +1,81 @@
+{
+  "icons": [
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/figma_1_tccgdh.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/css-3_1_qtc0cu.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/tailwind-svgrepo-com_1_ly64zz.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/sass-svgrepo-com_1_zbhfx8.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/js_1_apw8rp.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519434/josuecuevas-com/tech-icons/typescript-logo-svgrepo-com_1_xkmsyq.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685558519/josuecuevas-com/tech-icons/redux-svgrepo-com_c0urw6.svg",
+      "alt": "icon"
+    },
+
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519432/josuecuevas-com/tech-icons/nextjs-icon-svgrepo-com_1_bsljoe.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/git_1_wnsczj.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/github_1_vo5byo.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/graphql-svgrepo-com_1_icxzyz.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/terminal_1_r8jilm.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/Group_4_hfvn9o.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/postgresql-logo-svgrepo-com_1_ce5tbs.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519432/josuecuevas-com/tech-icons/mongodb_1_woi0i4.svg",
+      "alt": "icon"
+    }
+  ]
+}
