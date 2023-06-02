@@ -60,7 +60,7 @@ const HeroImage: React.FC = () => {
           <div className="flex justify-between px-2 gap-2 w-12/12 mx-auto mt-12 sm:w-2/5 md:justify-start md:gap-4 md:mx-0 md:mt-5">
             <a
               className="bg-accent-color p-2 rounded shadow-lg hover:scale-110 transition-all duration-300 ease-in-out flex justify-center items-center"
-              href="#contacto"
+              href="#contact"
             >
               Contr&aacute;tame
             </a>
