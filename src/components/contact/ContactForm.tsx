@@ -2,7 +2,15 @@ import React from "react";
 
 const ContactForm: React.FC = () => {
   return (
-    <form>
+    <form
+      action="https://formsubmit.co/36fd45573596bdfe935fcc119f220e27"
+      method="POST"
+    >
+      <input
+        type="hidden"
+        name="_next"
+        value="https://www.josuecuevas.com/"
+      ></input>
       <div className="grid gap-6 mb-6">
         <div>
           <label
