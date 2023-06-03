@@ -66,7 +66,7 @@ const HeroImage: React.FC = () => {
             </a>
             <a
               className="bg-white text-neutral-color p-2 rounded font-semibold shadow-lg hover:scale-110 transition-all duration-300 ease-in-out w-20 text-center"
-              href="/CV_Fullstack.pdf"
+              href="/CV_FullStack.pdf"
             >
               Mi CV
             </a>
