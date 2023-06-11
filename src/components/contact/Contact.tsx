@@ -11,8 +11,16 @@ import {
   BsWhatsapp,
 } from "react-icons/bs";
 import { IconContext } from "react-icons";
+import { Form } from "../../vite-env";
 
-const Contact: React.FC = () => {
+interface Props {
+  contact: {
+    h1: string;
+    form: Form;
+  };
+}
+
+const Contact: React.FC<Props> = ({ contact }) => {
   return (
     <section
       className="min-h-screen bg-white pb-4 md:px-4 bg-gradient-to-b from-bg-color to-linear-gray to-90% "
@@ -20,11 +28,15 @@ const Contact: React.FC = () => {
     >
       <article className="container mx-auto">
         <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
-          ¡Comun&iacute;cate conmigo!
+          {contact.h1}
         </h2>
         <div className="px-2 pt-9 lg:flex">
           <section className="lg:w-1/2">
-            <ContactForm />
+            <ContactForm
+              comments={contact.form.comments}
+              name={contact.form.name}
+              submit={contact.form.submit}
+            />
             <IconContext.Provider
               value={{ size: "32px", className: "w-6 sm :w-8" }}
             >

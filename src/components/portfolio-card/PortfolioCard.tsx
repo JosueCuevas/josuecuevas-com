@@ -11,9 +11,11 @@ interface Props {
     urlProject: string;
     techUsed: TechUsed[];
   };
+  text_1: string;
+  text_2: string;
 }
 
-const PortfolioCard: React.FC<Props> = ({ project }) => {
+const PortfolioCard: React.FC<Props> = ({ project, text_1, text_2 }) => {
   return (
     <div className="block rounded-lg bg-bg-color shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-xs  hover:scale-105 transition-all duration-300 ease-in-out">
       <div
@@ -40,7 +42,7 @@ const PortfolioCard: React.FC<Props> = ({ project }) => {
           target="_blank"
           rel="noopener"
         >
-          Ver Proyecto
+          {text_1}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -58,7 +60,7 @@ const PortfolioCard: React.FC<Props> = ({ project }) => {
           </svg>
         </a>
         <div className="mt-6">
-          <PortfolioAccordion techUsed={project.techUsed} />
+          <PortfolioAccordion techUsed={project.techUsed} text_2={text_2} />
         </div>
       </div>
     </div>

@@ -1,13 +1,15 @@
 import React from "react";
 import { GrClose } from "react-icons/gr";
 import { IconContext } from "react-icons";
+import { Nav } from "../../vite-env";
 
 interface Props {
   showMenu: boolean;
   toggleMenu: (t: boolean) => void;
+  nav: Nav[];
 }
 
-const Offcanvas: React.FC<Props> = ({ showMenu, toggleMenu }) => {
+const Offcanvas: React.FC<Props> = ({ showMenu, toggleMenu, nav }) => {
   return (
     <div
       className={`fixed z-50 top-0 ${
@@ -30,48 +32,16 @@ const Offcanvas: React.FC<Props> = ({ showMenu, toggleMenu }) => {
             <GrClose />
           </IconContext.Provider>
         </button>
-        <a
-          onClick={() => toggleMenu(!showMenu)}
-          href="#home"
-          className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:ts-1"
-        >
-          INICIO
-        </a>
-        <a
-          onClick={() => toggleMenu(!showMenu)}
-          href="#about"
-          className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:ts-1"
-        >
-          ACERCA
-        </a>
-        <a
-          onClick={() => toggleMenu(!showMenu)}
-          href="#portfolio"
-          className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:ts-1"
-        >
-          PORTAFOLIO
-        </a>
-        <a
-          onClick={() => toggleMenu(!showMenu)}
-          href="#services"
-          className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:shadow-ts-1"
-        >
-          SERVICIOS
-        </a>
-        <a
-          onClick={() => toggleMenu(!showMenu)}
-          href="#skills"
-          className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:shadow-ts-1"
-        >
-          HABILIDADES
-        </a>
-        <a
-          onClick={() => toggleMenu(!showMenu)}
-          href="#contact"
-          className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:ts-1"
-        >
-          CONTACTO
-        </a>
+        {nav.map((el, i) => (
+          <a
+            key={i}
+            onClick={() => toggleMenu(!showMenu)}
+            href={el.href}
+            className="ps-4 py-2 hover:bg-primary-color hover:text-bg-color hover:ts-1"
+          >
+            {el.link}
+          </a>
+        ))}
       </nav>
     </div>
   );

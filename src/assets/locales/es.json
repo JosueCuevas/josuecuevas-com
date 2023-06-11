@@ -1,0 +1,254 @@
+{
+  "header": {
+    "logo": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685652796/josuecuevas-com/Logo_swhpst.svg",
+    "nav": [
+      { "link": "INICIO", "href": "#home" },
+      { "link": "ACERCA", "href": "#about" },
+      { "link": "PORTAFOLIO", "href": "#portfolio" },
+      { "link": "SERVICIOS", "href": "#services" },
+      { "link": "HABILIDADES", "href": "#skills" },
+      { "link": "CONTACTO", "href": "#contact" }
+    ],
+    "flag": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1686512519/josuecuevas-com/flag-for-flag-united-kingdom-svgrepo-com_agoigo.svg"
+  },
+  "heroImage": {
+    "h1_1": "Tu",
+    "h1_2": " sitio web ",
+    "h1_3": "es tu presencia en línea. ¡Asegúrate que sea ",
+    "p": "Potencia tu negocio con un sitio profesional.",
+    "b1": "Contrátame",
+    "b2": "Mi CV",
+    "cv": "/CV_FullStack.pdf"
+  },
+  "about": {
+    "h2": "Acerca de mi",
+    "h3_1": "Habilidades Técnicas",
+    "aboutMeText_1": "Hola, Soy Josué Cuevas un apasionado desarrollador web dedicado a crear negocios digitales excepcionales. Con más de 1 año de experiencia de manera independiente. Creo que la comunicación y la colaboración efectivas son primordiales y prospero en entornos dinámicos donde puedo contribuir con mi experiencia técnica mientras colaboro estrechamente con clientes, diseñadores y compañeros desarrolladores.",
+    "aboutMeText_2": "Ya sea que se trate de desarrollar experiencias de front-end responsivas, optimizar el rendimiento o diseñar soluciones de back-end escalables, abordo cada proyecto con entusiasmo y dedicación. Si estás buscando un desarrollador web confiable y orientado a los detalles que se comprometa a  excelencia, me encantaría saber de ti.",
+    "blockQuote": "Creando Negocios Digitales",
+    "h3_2": "Habilidades Blandas",
+    "softSkills": [
+      "Comunicación",
+      "Solucionar Problemas",
+      "Adaptabilidad",
+      "Flexibilidad",
+      "Colaboración",
+      "Servicio al cliente",
+      "Pensamiento analítico",
+      "Creatividad",
+      "Aprendizaje continuo",
+      "Manejo y organización de tiempos"
+    ]
+  },
+  "portfolio": {
+    "h2": "Mis Proyectos",
+    "projects": [
+      {
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
+        "title": "OaxaTech",
+        "dateProject": "Mayo 2023",
+        "description": "Proyecto FullStack donde realicé el diseño, desarrollo y SEO de una tienda en línea para la venta de refacciones dirigida a celulares. Usando la pasarela de pagos de Stripe",
+        "urlProject": "https://www.oaxatech.com",
+        "techUsed": [
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/figma_1_tccgdh.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519434/josuecuevas-com/tech-icons/typescript-logo-svgrepo-com_1_xkmsyq.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/graphql-svgrepo-com_1_icxzyz.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/postgresql-logo-svgrepo-com_1_ce5tbs.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685557410/josuecuevas-com/tech-icons/stripe-svgrepo-com_zhjfux.svg",
+            "alt": "icon"
+          }
+        ]
+      },
+      {
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644287/josuecuevas-com/images/my-weather_knnbgp_dhenfx.png",
+        "title": "My Weather",
+        "dateProject": "Febrero 2023",
+        "description": "Proyecto Frontend donde realicé el diseño y desarrollo de una aplicación del clima para reafirmar conocimientos avanzados de React. Consumiendo la API de OpenWeatherMap",
+        "urlProject": "https://myclima.vercel.app/",
+        "techUsed": [
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/figma_1_tccgdh.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://styled-components.com/favicon.png",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
+            "alt": "icon"
+          }
+        ]
+      },
+      {
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644292/josuecuevas-com/images/sennse-buildings_km0igd_lwtw51.png",
+        "title": "Sennse Buildings",
+        "dateProject": "Noviembre 2022",
+        "description": "Proyecto FullStack, realicé el diseño y el desarrollo de una interfaz para monitorear la disponibilidad de los apartamentos que la inmobiliria vende, así como una API para consumir los datos",
+        "urlProject": "https://sennse-building.up.railway.app/edificios/reforma",
+        "techUsed": [
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/css-3_1_qtc0cu.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/js_1_apw8rp.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685558975/josuecuevas-com/tech-icons/express-svgrepo-com_n9hqnm.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/Group_4_hfvn9o.svg",
+            "alt": "icon"
+          }
+        ]
+      },
+      {
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644282/josuecuevas-com/images/cotizador-sennse_vujjbi_pslolj.png",
+        "title": "Cotizador Sennse",
+        "dateProject": "Septiembre 2022",
+        "description": "Proyecto FullStack donde realizé el desarrollo de un cotizador para calcular el precio de un apartamento en diferentes esquemas de pago. El sitio además crea un archivo pdf que puede ser enviado por email o descargado, con todas la información necesaria",
+        "urlProject": "https://cotizadorsennse-production.up.railway.app/",
+        "techUsed": [
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/css-3_1_qtc0cu.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/js_1_apw8rp.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685558975/josuecuevas-com/tech-icons/express-svgrepo-com_n9hqnm.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/Group_4_hfvn9o.svg",
+            "alt": "icon"
+          }
+        ]
+      }
+    ],
+    "text_1": "Ver Proyecto",
+    "text_2": "Tecnologías usadas para el proyecto"
+  },
+  "services": {
+    "h2_1": "¿Qué te ofrezco?",
+    "h2_2": "Eligiendo mis servicios puedes esperar",
+    "services": [
+      {
+        "title": "Desarrollo Frontend",
+        "description": "Crear sitios web visualmente atractivos y fáciles de usar utilizando HTML, CSS y JavaScript, optimizando la experiencia del usuario y la capacidad de respuesta en diferentes dispositivos",
+        "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644293/josuecuevas-com/images/frontend_rsojcy_whyhoh.webp)"
+      },
+      {
+        "title": "Desarrollo Backend",
+        "description": "Construir aplicaciones del lado del servidor robustas y escalables utilizando Node.js y frameworks como Express. Desarrollar bases de datos seguras e integrar las API para garantizar una funcionalidad y una gestión de datos eficiente",
+        "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644295/josuecuevas-com/images/backend_yk5qvj_ik1swm.webp)"
+      },
+      {
+        "title": "Diseño Responsivo",
+        "description": "Asegurar que el sitio o aplicación web se vea y funcione perfectamente en varios dispositivos, incluidos equipos de escritorio, tabletas y dispositivos móviles. ",
+        "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644336/josuecuevas-com/images/responsive_qhdeq8_szga5a.webp)"
+      },
+      {
+        "title": "Soluciones de comercio electrónico",
+        "description": "Desarrollar una tienda en línea personalizada con métodos de pagos seguros, sistemas gestores de inventarios e interfaces amigables, habilitando tu empresa a vender productos o servicios en línea de manera efectiva",
+        "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644297/josuecuevas-com/images/e-commerce_slwkmn_qjdskr.webp)"
+      },
+      {
+        "title": "Desarrollo de aplicaciones Web",
+        "description": "Construir aplicaciones web dinámicas e interactivas usando la librería de React.js para implementar funcionalidades complejas, actualizaciones en tiempo real e interacciones de usuario perfectas",
+        "bg_image": "url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/webapp_rct3w7_xrfymo.webp)"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Trabajo de calidad",
+        "description": "Me enorgullece ofrecer un código limpio y bien estructurado que se adhiere a las mejores prácticas de la industria, lo que garantiza que su proyecto sea confiable, fácil de mantener y escalable.",
+        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644316/josuecuevas-com/images/quality_fmoi9l_k3ydul.webp"
+      },
+      {
+        "title": "Atención a los detalles",
+        "description": "Presto mucha atención a los requisitos de su proyecto, asegurándome de que cada aspecto se planifique y ejecute meticulosamente para cumplir con sus objetivos.",
+        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644289/josuecuevas-com/images/details_zcj6gt_aapkaw.webp"
+      },
+      {
+        "title": "Enfoque colaborativo",
+        "description": "Creo en la comunicación abierta y la colaboración durante todo el proceso de desarrollo, asegurando que su visión se traduzca en una solución digital exitosa.",
+        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/collaborative_lyx9gh_aixc6p.webp"
+      },
+      {
+        "title": "Entrega oportuna",
+        "description": "Entiendo la importancia de cumplir con los plazos. Me esfuerzo por entregar proyectos dentro de los plazos acordados sin comprometer la calidad.",
+        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644334/josuecuevas-com/images/time_lmi0cp_qfxsyg.webp"
+      },
+      {
+        "title": "Soporte excepcional",
+        "description": "Incluso después de la finalización del proyecto, brindo soporte y asistencia continuos para abordar cualquier inquietud o actualización que pueda necesitar.",
+        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/support_izccmh_wk9ad4.webp"
+      }
+    ]
+  },
+  "contact": {
+    "h1": "¡Comunícate conmigo!",
+    "form": {
+      "name": "Nombre",
+      "comments": "Comentarios",
+      "submit": "Enviar"
+    }
+  },
+  "footer": {
+    "logo_h": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685652796/josuecuevas-com/Logo_swhpst.svg",
+    "logo_v": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685652796/josuecuevas-com/Logo-h_dtic3w.svg",
+    "text_1": "Gracias por tomar el tiempo de explorar mi portafolio. Seguro lo encontraste informativo e inspirador. Si tienes alguna  pregunta o potencial colaboración estaré encantado de ayudarte.",
+    "text_2": " Por favor no dudes en comunicarte utilizando la información proporcionada anteriormente. Gracias una vez más, y espero saber de ti pronto."
+  }
+}

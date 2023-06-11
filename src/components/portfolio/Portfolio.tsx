@@ -1,19 +1,46 @@
 import React from "react";
 import PortfolioCard from "../portfolio-card/PortfolioCard";
-import { projects } from "../../assets/portfolio.json";
 
-const Portfolio: React.FC = () => {
+type TechIcons = {
+  url: string;
+  alt: string;
+};
+
+type Projects = {
+  image: string;
+  title: string;
+  dateProject: string;
+  description: string;
+  urlProject: string;
+  techUsed: TechIcons[];
+};
+
+interface Props {
+  portfolio: {
+    h2: string;
+    projects: Projects[];
+    text_1: string;
+    text_2: string;
+  };
+}
+
+const Portfolio: React.FC<Props> = ({ portfolio }) => {
   return (
     <section
       className="min-h-screen bg-gradient-to-b from-bg-color to-linear-gray to-90% px-2 pb-4 sm:pb-8 sm:px-4"
       id="portfolio"
     >
       <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
-        Mis Proyectos
+        {portfolio.h2}
       </h2>
-      <div className="flex flex-wrap mt-9 gap-11 justify-evenly">
-        {projects.map((project, i) => (
-          <PortfolioCard project={project} key={i} />
+      <div className="flex flex-wrap mt-9 gap-11 justify-evenly items-start">
+        {portfolio.projects.map((project, i) => (
+          <PortfolioCard
+            project={project}
+            key={i}
+            text_1={portfolio.text_1}
+            text_2={portfolio.text_2}
+          />
         ))}
       </div>
     </section>

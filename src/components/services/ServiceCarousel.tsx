@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Services } from "../../vite-env";
 
-import { services } from "../../assets/services.json";
+interface Props {
+  services: Services[];
+}
 
-const ServiceCarousel: React.FC = () => {
+const ServiceCarousel: React.FC<Props> = ({ services }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [totalSlides] = useState(services.length);
 
@@ -21,7 +24,6 @@ const ServiceCarousel: React.FC = () => {
     <div id="carouselExampleControls" className="relative">
       <div className="w-full overflow-hidden after:clear-both after:block after:content-['']">
         {/* Carousel slides */}
-
         <section
           className="relative min-h-screen"
           style={{

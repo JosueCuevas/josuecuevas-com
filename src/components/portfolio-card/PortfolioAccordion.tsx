@@ -30,9 +30,10 @@ function Icon({ id, open }: IconProps) {
 
 type Props = {
   techUsed: TechUsed[];
+  text_2: string;
 };
 
-export default function PortfolioAccordion({ techUsed }: Props) {
+export default function PortfolioAccordion({ techUsed, text_2 }: Props) {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (value: number) => {
@@ -42,7 +43,7 @@ export default function PortfolioAccordion({ techUsed }: Props) {
   return (
     <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
       <AccordionHeader onClick={() => handleOpen(1)} className="text-sm">
-        Tecnolog&iacute;as usadas en este proyecto
+        {text_2}
       </AccordionHeader>
       <AccordionBody>
         <div className="flex flex-wrap gap-3 mt-7 justify-center ">

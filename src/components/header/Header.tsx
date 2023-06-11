@@ -1,9 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import Offcanvas from "../offcanvas/Offcanvas";
+import { Nav } from "../../vite-env";
+import { LangContext } from "../../context/LangContext";
 
-const Header: React.FC = () => {
+interface Props {
+  header: {
+    logo: string;
+    nav: Nav[];
+    flag: string;
+  };
+}
+
+const Header: React.FC<Props> = ({ header }) => {
+  const { lang, handleLang } = useContext(LangContext);
   const [showMenu, setShowMenu] = useState(true);
   const toggleMenu = (s: boolean) => {
     setShowMenu(s);
@@ -30,66 +41,44 @@ const Header: React.FC = () => {
       >
         <section className="flex container mx-auto py-2 justify-between items-center px-2 sm:px-4">
           <a href="#home" className="w-3/6 sm:w-1/3 lg:w-1/5">
-            <img
-              src="https://res.cloudinary.com/dokbqdk6g/image/upload/v1685652796/josuecuevas-com/Logo_swhpst.svg"
-              alt="Logo"
-            />
+            <img src={header.logo} alt="Logo" />
           </a>
-          <button
-            className="bg-transparent cursor-pointer lg:hidden"
-            onClick={() => toggleMenu(!showMenu)}
-          >
-            <IconContext.Provider
-              value={{
-                size: "2rem",
-                className:
-                  "text-bg-color hover:text-accent-color transition-colors duration-300 ease-in-out",
-              }}
+          <div className="flex gap-4 items-center">
+            <button
+              className="w-8 h-8"
+              onClick={() => handleLang(lang === "es" ? "en" : "es")}
             >
-              <FiMenu />
-            </IconContext.Provider>
-          </button>
-          <nav className="hidden lg:flex gap-4">
-            <a
-              href="#home"
-              className="text-bg-color font-light text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
+              <img src={header.flag} alt="Change Language" />
+            </button>
+            <button
+              className="bg-transparent cursor-pointer lg:hidden"
+              onClick={() => toggleMenu(!showMenu)}
             >
-              INICIO
-            </a>
-            <a
-              href="#about"
-              className="text-bg-color font-light text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
-            >
-              ACERCA
-            </a>
-            <a
-              href="#portfolio"
-              className="text-bg-color font-light  text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
-            >
-              PORTAFOLIO
-            </a>
-            <a
-              href="#services"
-              className="text-bg-color font-light text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
-            >
-              SERVICIOS
-            </a>
-            <a
-              href="#skills"
-              className="text-bg-color font-light text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
-            >
-              HABILIDADES
-            </a>
-            <a
-              href="#contact"
-              className="text-bg-color font-light text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
-            >
-              CONTACTO
-            </a>
-          </nav>
+              <IconContext.Provider
+                value={{
+                  size: "2rem",
+                  className:
+                    "text-bg-color hover:text-accent-color transition-colors duration-300 ease-in-out",
+                }}
+              >
+                <FiMenu />
+              </IconContext.Provider>
+            </button>
+            <nav className="hidden lg:flex gap-4">
+              {header.nav.map((el, i) => (
+                <a
+                  key={i}
+                  href={el.href}
+                  className="text-bg-color font-light text-sm hover:text-accent-color transition-colors duration-300 ease-in-out ts-1"
+                >
+                  {el.link}
+                </a>
+              ))}
+            </nav>
+          </div>
         </section>
       </header>
-      <Offcanvas showMenu={showMenu} toggleMenu={toggleMenu} />
+      <Offcanvas showMenu={showMenu} toggleMenu={toggleMenu} nav={header.nav} />
     </>
   );
 };

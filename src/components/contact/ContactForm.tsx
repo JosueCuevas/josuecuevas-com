@@ -1,6 +1,7 @@
 import React from "react";
+import { Form } from "../../vite-env";
 
-const ContactForm: React.FC = () => {
+const ContactForm: React.FC<Form> = ({ comments, name, submit }) => {
   return (
     <form
       action="https://formsubmit.co/36fd45573596bdfe935fcc119f220e27"
@@ -17,7 +18,7 @@ const ContactForm: React.FC = () => {
             htmlFor="first_name"
             className="block mb-2 text-sm font-medium dark:text-white"
           >
-            Nombre
+            {name}
           </label>
           <input
             type="text"
@@ -50,7 +51,7 @@ const ContactForm: React.FC = () => {
         htmlFor="message"
         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
       >
-        Comentarios
+        {comments}
       </label>
       <textarea
         id="message"
@@ -62,9 +63,9 @@ const ContactForm: React.FC = () => {
       <div className="flex lg:justify-end">
         <button
           type="submit"
-          className="text-white my-8 w-full lg:w-1/3  bg-accent-color hover:bg-blue-400 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
+          className="text-white my-8 w-full lg:w-1/3 lg:max-w-[6rem]  bg-accent-color hover:bg-blue-400 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2"
         >
-          Enviar
+          {submit}
         </button>
       </div>
     </form>

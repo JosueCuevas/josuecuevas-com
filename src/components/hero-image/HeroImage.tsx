@@ -1,9 +1,26 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState, useContext } from "react";
+import { LangContext } from "../../context/LangContext";
 
-const HeroImage: React.FC = () => {
+interface Props {
+  heroImage: {
+    h1_1: string;
+    h1_2: string;
+    h1_3: string;
+    p: string;
+    b1: string;
+    b2: string;
+    cv: string;
+  };
+}
+
+const HeroImage: React.FC<Props> = ({ heroImage }) => {
+  const { lang } = useContext(LangContext);
   const words = useMemo(
-    () => ["buena!", "agradable!", "segura!", "perfecta!"],
-    []
+    () =>
+      lang === "es"
+        ? ["buena!", "agradable!", "segura!", "perfecta!"]
+        : ["good!", "nice!", "safe!", "perfect!"],
+    [lang]
   );
 
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -48,27 +65,28 @@ const HeroImage: React.FC = () => {
       <article className="bg-bg-opacity pt-12">
         <div className="min-h-screen container mx-auto flex flex-col justify-center text-white md:px-4 md:justify-end md:pb-16">
           <h1 className="text-4xl font-bold text-center md:text-start ts-1 px-2">
-            Tu <span className="text-4xl text-accent-color">sitio web</span> es
-            tu presencia en línea. ¡Asegúrate que sea{" "}
+            {heroImage.h1_1}
+            <span className="text-4xl text-accent-color">{heroImage.h1_2}</span>
+            {heroImage.h1_3}
             <span className="text-4xl text-accent-color changing-word">
               {currentWord}
             </span>
           </h1>
           <p className="text-center px-2 font-semibold mt-12 md:mt-4 md:text-start ts-1">
-            Potencia tu presencia web con un sitio profesional.
+            {heroImage.p}
           </p>
           <div className="flex justify-between px-2 gap-2 w-12/12 mx-auto mt-12 sm:w-2/5 md:justify-start md:gap-4 md:mx-0 md:mt-5">
             <a
               className="bg-accent-color p-2 rounded shadow-lg hover:scale-110 transition-all duration-300 ease-in-out flex justify-center items-center"
               href="#contact"
             >
-              Contr&aacute;tame
+              {heroImage.b1}
             </a>
             <a
               className="bg-white text-neutral-color p-2 rounded font-semibold shadow-lg hover:scale-110 transition-all duration-300 ease-in-out w-20 text-center"
-              href="/CV_FullStack.pdf"
+              href={heroImage.cv}
             >
-              Mi CV
+              {heroImage.b2}
             </a>
           </div>
         </div>
