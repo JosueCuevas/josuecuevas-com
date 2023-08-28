@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Services } from "../../vite-env";
+import { Services } from "../../interfaces/generalStructure";
 
 interface Props {
   services: Services[];

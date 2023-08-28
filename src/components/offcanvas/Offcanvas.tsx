@@ -1,7 +1,7 @@
 import React from "react";
 import { GrClose } from "react-icons/gr";
 import { IconContext } from "react-icons";
-import { Nav } from "../../vite-env";
+import { Nav } from "../../interfaces/generalStructure";
 
 interface Props {
   showMenu: boolean;

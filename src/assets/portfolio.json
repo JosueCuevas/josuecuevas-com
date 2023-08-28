@@ -1,6 +1,43 @@
 {
   "projects": [
     {
+      "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1693261556/josuecuevas-com/images/Captura_de_pantalla_2023-08-28_162524_tdijey.png",
+      "title": "COVA",
+      "dateProject": "Agosto 2023",
+      "description": "Aplicación Web para monitorear la disponibilidad de los apartamentos en un desarrollo inmobiliario, este proyecto ademas genera una cotización personalizada para el cliente que puede ser descargada o enviada por correo, así también se desarrolló un dashboard de administrador para gestionar la información del proyecto",
+      "urlProject": "https://thelife3d.com/cova/menu/",
+      "techUsed": [
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
+          "alt": "icon"
+        },
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/sass-svgrepo-com_1_zbhfx8.svg",
+          "alt": "icon"
+        },
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519434/josuecuevas-com/tech-icons/typescript-logo-svgrepo-com_1_xkmsyq.svg",
+          "alt": "icon"
+        },
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
+          "alt": "icon"
+        },
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
+          "alt": "icon"
+        },
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/graphql-svgrepo-com_1_icxzyz.svg",
+          "alt": "icon"
+        },
+        {
+          "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/postgresql-logo-svgrepo-com_1_ce5tbs.svg",
+          "alt": "icon"
+        }
+      ]
+    },
+    {
       "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
       "title": "OaxaTech",
       "dateProject": "Mayo 2023",

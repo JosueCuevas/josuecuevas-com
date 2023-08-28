@@ -41,12 +41,49 @@
     ]
   },
   "portfolio": {
-    "h2": "Mis Proyectos",
+    "h2": "My Projects",
     "projects": [
+      {
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1693261556/josuecuevas-com/images/Captura_de_pantalla_2023-08-28_162524_tdijey.png",
+        "title": "COVA",
+        "dateProject": "August 2023",
+        "description": "Web App for tracking the availability of apartments in a real estate development, generate personalized quotes for the client that can be downloaded or sent by mail and an administrator dashboard to manage project information.",
+        "urlProject": "https://thelife3d.com/cova/menu/",
+        "techUsed": [
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/sass-svgrepo-com_1_zbhfx8.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519434/josuecuevas-com/tech-icons/typescript-logo-svgrepo-com_1_xkmsyq.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/graphql-svgrepo-com_1_icxzyz.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/postgresql-logo-svgrepo-com_1_ce5tbs.svg",
+            "alt": "icon"
+          }
+        ]
+      },
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
         "title": "OaxaTech",
-        "dateProject": "Mayo 2023",
+        "dateProject": "May 2023",
         "description": "Full Stack project where I made the design, development and SEO for an e-commerce to sale mobile parts aimed to phones like displays and batteries, using Stripe as payment gateway",
         "urlProject": "https://www.oaxatech.com",
         "techUsed": [
@@ -87,7 +124,7 @@
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644287/josuecuevas-com/images/my-weather_knnbgp_dhenfx.png",
         "title": "My Weather",
-        "dateProject": "Febrero 2023",
+        "dateProject": "February 2023",
         "description": "Frontend project where I designed and developed a weather application to reaffirm advanced knowledge of React. Consuming the OpenWeatherMap API",
         "urlProject": "https://myclima.vercel.app/",
         "techUsed": [
@@ -112,7 +149,7 @@
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644292/josuecuevas-com/images/sennse-buildings_km0igd_lwtw51.png",
         "title": "Sennse Buildings",
-        "dateProject": "Noviembre 2022",
+        "dateProject": "November 2022",
         "description": "Full Stack project, I made the design and development of a database and an interface to monitor the availability of the apartments to sell, as well as an API to consume the data",
         "urlProject": "https://sennse-building.up.railway.app/edificios/reforma",
         "techUsed": [
@@ -144,8 +181,8 @@
       },
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644282/josuecuevas-com/images/cotizador-sennse_vujjbi_pslolj.png",
-        "title": "Cotizador Sennse",
-        "dateProject": "Septiembre 2022",
+        "title": "Quoter Sennse",
+        "dateProject": "September 2022",
         "description": "Full Stack project where I developed a quoter to calculate the price of an apartment in different payment schemes. The site also creates a PDF file that can be sent by email or downloaded.",
         "urlProject": "https://cotizadorsennse-production.up.railway.app/",
         "techUsed": [
@@ -243,12 +280,17 @@
       "name": "Name",
       "comments": "Comments",
       "submit": "Send"
+    },
+    "placeholders": {
+      "name": "Your name...",
+      "email": "hello@example.com",
+      "comments": "Write your comments..."
     }
   },
   "footer": {
     "logo_v": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1686506156/josuecuevas-com/en_gvosf7.svg",
     "logo_h": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1686506156/josuecuevas-com/en-h_jnpggv.svg",
-    "text_1": "Gracias por tomar el tiempo de explorar mi portafolio. Seguro lo encontraste informativo e inspirador. Si tienes alguna  pregunta o potencial colaboración estaré encantado de ayudarte.",
-    "text_2": " Por favor no dudes en comunicarte utilizando la información proporcionada anteriormente. Gracias una vez más, y espero saber de ti pronto."
+    "text_1": "Thank you for taking the time to explore my portfolio. I'm sure you found it informative and inspiring. If you have any questions or potential collaboration I will be happy to help you.",
+    "text_2": " Please feel free to contact us using the information provided above. Thank you once again, and I look forward to hearing from you soon."
   }
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import Offcanvas from "../offcanvas/Offcanvas";
-import { Nav } from "../../vite-env";
+import { Nav } from "../../interfaces/generalStructure";
 import { LangContext } from "../../context/LangContext";
 
 interface Props {

@@ -11,12 +11,13 @@ import {
   BsWhatsapp,
 } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import { Form } from "../../vite-env";
+import { Form, Placeholders } from "../../interfaces/generalStructure";
 
 interface Props {
   contact: {
     h1: string;
     form: Form;
+    placeholders: Placeholders;
   };
 }
 
@@ -36,6 +37,7 @@ const Contact: React.FC<Props> = ({ contact }) => {
               comments={contact.form.comments}
               name={contact.form.name}
               submit={contact.form.submit}
+              placeholders={contact.placeholders}
             />
             <IconContext.Provider
               value={{ size: "32px", className: "w-6 sm :w-8" }}

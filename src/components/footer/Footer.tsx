@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "../../vite-env";
+import { Nav } from "../../interfaces/generalStructure";
 
 interface Props {
   footer: {

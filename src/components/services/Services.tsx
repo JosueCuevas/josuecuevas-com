@@ -1,7 +1,10 @@
 import React from "react";
 import ServiceCarousel from "./ServiceCarousel";
 import Benefits from "./Benefits";
-import { Benefits as B, Services as S } from "../../vite-env";
+import {
+  Benefits as B,
+  Services as S,
+} from "../../interfaces/generalStructure";
 
 interface Props {
   services: {

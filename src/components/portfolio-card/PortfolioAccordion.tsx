@@ -4,7 +4,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { TechUsed } from "../../vite-env";
+import { TechUsed } from "../../interfaces/generalStructure";
 
 type IconProps = {
   id: number;
