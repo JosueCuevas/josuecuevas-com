@@ -44,18 +44,14 @@
     "h2": "My Projects",
     "projects": [
       {
-        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1693261556/josuecuevas-com/images/Captura_de_pantalla_2023-08-28_162524_tdijey.png",
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1695398080/josuecuevas-com/images/Captura_de_pantalla_2023-09-22_095414_jftn7q.png",
         "title": "COVA",
         "dateProject": "August 2023",
-        "description": "Web App for tracking the availability of apartments in a real estate development, generate personalized quotes for the client that can be downloaded or sent by mail and an administrator dashboard to manage project information.",
+        "description": "Web App with multiple functionalities for a real estate company, it generates personalized quotes for the client that can be downloaded or sent by e-mail and an administrator dashboard to manage project information.",
         "urlProject": "https://thelife3d.com/cova/menu/",
         "techUsed": [
           {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/sass-svgrepo-com_1_zbhfx8.svg",
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/tailwind-svgrepo-com_1_ly64zz.svg",
             "alt": "icon"
           },
           {
@@ -93,6 +89,10 @@
           },
           {
             "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
+            "alt": "icon"
+          },
+          {
+            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/sass-svgrepo-com_1_zbhfx8.svg",
             "alt": "icon"
           },
           {
@@ -214,7 +214,7 @@
       }
     ],
     "text_1": "See Project",
-    "text_2": "Skills used for this project"
+    "text_2": "Technologies used for this project"
   },
   "services": {
     "h2_1": "What can I do for you?",
