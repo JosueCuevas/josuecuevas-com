@@ -48,7 +48,7 @@
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1695398080/josuecuevas-com/images/Captura_de_pantalla_2023-09-22_095414_jftn7q.png",
         "title": "COVA",
         "dateProject": "Agosto 2023",
-        "description": "Aplicación Web con diversas funcionalidades que mejoran las actividades de una imobiliaria, genera cotizaciones personalizadas que pueden ser descargadas o enviadas por correo y un dashboard de administrador para gestionar la información del proyecto",
+        "description": "Aplicación Web para optimizar las actividades de una imobiliaria, genera cotizaciones personalizadas que pueden ser descargadas o enviadas por correo y un dashboard de administrador para gestionar la información del proyecto",
         "urlProject": "https://thelife3d.com/cova/menu/",
         "techUsed": [
           {

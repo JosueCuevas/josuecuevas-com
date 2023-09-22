@@ -24,7 +24,7 @@ interface Props {
 const Contact: React.FC<Props> = ({ contact }) => {
   return (
     <section
-      className="min-h-screen bg-white pb-4 md:px-4 bg-gradient-to-b from-bg-color to-linear-gray to-90% "
+      className="min-h-screen bg-white pb-4 md:px-4 bg-gradient-to-b from-bg-color to-linear-gray to-90% flex items-center"
       id="contact"
     >
       <article className="container mx-auto">

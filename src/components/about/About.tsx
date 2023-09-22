@@ -15,7 +15,10 @@ interface Props {
 
 const About: React.FC<Props> = ({ about }) => {
   return (
-    <section className="min-h-screen bg-white pb-4 md:px-4" id="about">
+    <section
+      className="min-h-screen bg-white pb-4 md:px-4 flex items-center"
+      id="about"
+    >
       <article className="container mx-auto">
         <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
           {about.h2}

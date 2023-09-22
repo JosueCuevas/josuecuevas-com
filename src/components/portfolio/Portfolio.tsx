@@ -30,18 +30,20 @@ const Portfolio: React.FC<Props> = ({ portfolio }) => {
       className="min-h-screen bg-gradient-to-b from-bg-color to-linear-gray to-90% px-2 pb-4 sm:pb-8 sm:px-4"
       id="portfolio"
     >
-      <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
-        {portfolio.h2}
-      </h2>
-      <div className="flex flex-wrap mt-9 gap-11 justify-evenly items-start">
-        {portfolio.projects.map((project, i) => (
-          <PortfolioCard
-            project={project}
-            key={i}
-            text_1={portfolio.text_1}
-            text_2={portfolio.text_2}
-          />
-        ))}
+      <div className="container mx-auto">
+        <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
+          {portfolio.h2}
+        </h2>
+        <div className="flex flex-wrap mt-9  justify-start items-start w-full">
+          {portfolio.projects.map((project, i) => (
+            <PortfolioCard
+              project={project}
+              key={i}
+              text_1={portfolio.text_1}
+              text_2={portfolio.text_2}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
