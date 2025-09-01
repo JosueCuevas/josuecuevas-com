@@ -23,7 +23,7 @@ const About: React.FC<Props> = ({ about }) => {
         <div className="mt-6 flex flex-col lg:flex-row lg:mt-8 lg:justify-between lg:items-start">
           <section className="mx-auto w-1/2 lg:mx-0 lg:order-1 lg:w-1/4">
             <img
-              src="https://res.cloudinary.com/de2xaf9jy/image/upload/v1756700952/josuecuevas.com/New-profile-photo_g1st7g.png"
+              src="https://res.cloudinary.com/de2xaf9jy/image/upload/v1756747773/New-profile-photo_s7yuss.png"
               alt="Me"
               className="lg:mt-6 xl:mt-0 rounded-full"
             />

@@ -32,7 +32,7 @@ const Contact: React.FC<Props> = ({ contact }) => {
           {contact.h1}
         </h2>
         <div className="px-2 pt-9 lg:flex">
-          <section className="lg:w-1/2">
+          <section className="lg:w-1/2 lg:mx-auto">
             <ContactForm
               comments={contact.form.comments}
               name={contact.form.name}
@@ -107,12 +107,6 @@ const Contact: React.FC<Props> = ({ contact }) => {
                 </a>
               </div>
             </IconContext.Provider>
-          </section>
-          <section className="hidden lg:flex lg:justify-center lg:items-center lg:w-1/2">
-            <img
-              src="https://res.cloudinary.com/dokbqdk6g/image/upload/v1685646366/josuecuevas-com/images/BusinessPeopleHandshaking_pjbilk.svg"
-              alt="We made a deal"
-            />
           </section>
         </div>
       </article>
