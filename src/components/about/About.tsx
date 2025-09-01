@@ -20,7 +20,7 @@ const About: React.FC<Props> = ({ about }) => {
         <h2 className="text-2xl md:text-3xl text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
           {about.h2}
         </h2>
-        <div className="mt-6 flex flex-col lg:flex-row lg:mt-8 lg:justify-between lg:items-start xl:items-end">
+        <div className="mt-6 flex flex-col lg:flex-row lg:mt-8 lg:justify-between lg:items-start">
           <section className="mx-auto w-1/2 lg:mx-0 lg:order-1 lg:w-1/4">
             <img
               src="https://res.cloudinary.com/de2xaf9jy/image/upload/v1756700952/josuecuevas.com/New-profile-photo_g1st7g.png"
