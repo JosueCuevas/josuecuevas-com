@@ -18,7 +18,7 @@ const Footer: React.FC<Props> = ({ footer, nav }) => {
       <img
         src={footer.logo_v}
         alt="Logo"
-        className="hidden lg:block lg:w-1/3"
+        className="hidden lg:block lg:w-1/6"
       />
       <div>
         <p className="text-white">{footer.text_1}</p>

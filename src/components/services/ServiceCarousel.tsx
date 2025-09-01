@@ -13,7 +13,7 @@ const ServiceCarousel: React.FC<Props> = ({ services }) => {
     const slideInterval = setInterval(() => {
       const nextSlide = (currentSlide + 1) % totalSlides;
       setCurrentSlide(nextSlide);
-    }, 8000); // Slide every 8 seconds
+    }, 7000); // Slide every 8 seconds
 
     return () => {
       clearInterval(slideInterval);
@@ -43,13 +43,15 @@ const ServiceCarousel: React.FC<Props> = ({ services }) => {
                   backgroundImage: `${service.bg_image}`,
                 }}
               >
-                <article className="bg-bg-opacity absolute top-0 right-0 bottom-0 left-0 flex flex-col justify-center items-center  text-white">
-                  <h3 className="text-2xl sm:text-4xl font-bold text-center ts-1 text-accent-color">
-                    {service.title}
-                  </h3>
-                  <p className="w-8/12 text-center mt-6 mx-auto ts-1 text-linear-gray font-semibold">
-                    {service.description}
-                  </p>
+                <article className="bg-bg-opacity absolute top-0 right-0 bottom-0 left-0 flex flex-col justify-center items-start  text-white">
+                  <div className="mx-auto w-1/2">
+                    <h3 className="text-center lg:text-start text-2xl sm:text-4xl font-bold ts-1 text-accent-color">
+                      {service.title}
+                    </h3>
+                    <p className="mt-6 ts-1 text-linear-gray font-semibold">
+                      {service.description}
+                    </p>
+                  </div>
                 </article>
               </section>
             </div>

@@ -22,10 +22,10 @@
     "cv": "/CV_FullStack.pdf"
   },
   "about": {
-    "h2": "Acerca de mi",
+    "h2": "Acerca de mí",
     "h3_1": "Habilidades Técnicas",
-    "aboutMeText_1": "Hola, Soy Josué Cuevas un apasionado desarrollador web dedicado a crear negocios digitales excepcionales. Con más de 2 años de experiencia de manera independiente. Creo que la comunicación y la colaboración efectivas son primordiales y prospero en entornos dinámicos donde puedo contribuir con mi experiencia técnica mientras colaboro estrechamente con clientes, diseñadores y compañeros desarrolladores.",
-    "aboutMeText_2": "Ya sea que se trate de desarrollar experiencias de front-end responsivas, optimizar el rendimiento o diseñar soluciones de back-end escalables, abordo cada proyecto con entusiasmo y dedicación. Si estás buscando un desarrollador web confiable y orientado a los detalles que se comprometa a  excelencia, me encantaría saber de ti.",
+    "aboutMeText_1": "Hola, Soy Josué Cuevas un apasionado programador dedicado a crear negocios digitales excepcionales. Con 3 años de experiencia como desarrollador de software. Creo en la comunicación asi como en la colaboración efectiva y prospero en entornos dinámicos donde puedo contribuir con mi experiencia técnica mientras colaboro estrechamente con clientes, diseñadores y compañeros desarrolladores.",
+    "aboutMeText_2": "Me especializo en crear experiencias de usuario atractivas, optimizar el rendimiento de aplicaciones y desarrollar soluciones backend robustas. Si buscas un desarrollador comprometido con la calidad y la innovación, estaré encantado de colaborar contigo.",
     "blockQuote": "Creando Negocios Digitales",
     "h3_2": "Habilidades Blandas",
     "softSkills": [
@@ -42,7 +42,7 @@
     ]
   },
   "portfolio": {
-    "h2": "Mis Proyectos",
+    "h2": "¿Qué he hecho?",
     "projects": [
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1695398080/josuecuevas-com/images/Captura_de_pantalla_2023-09-22_095414_jftn7q.png",
@@ -218,8 +218,8 @@
     "text_2": "Tecnologías usadas para el proyecto"
   },
   "services": {
-    "h2_1": "¿Qué te ofrezco?",
-    "h2_2": "Eligiendo mis servicios puedes esperar",
+    "h2_1": "Mis servicios",
+    "h2_2": "Eligiendo mis servicios puedes esperar...",
     "services": [
       {
         "title": "Desarrollo Frontend",

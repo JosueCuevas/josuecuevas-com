@@ -45,23 +45,19 @@ const Benefits: React.FC<Props> = ({ benefit }) => {
         >
           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/90 via-black/50" />
         </CardHeader>
-        <CardBody className="relative py-14 px-6 md:px-12">
-          <Typography
-            variant="h3"
-            color="white"
-            className="mb-6 font-medium ts-1"
-          >
+        <CardBody className="relative py-4 px-6 md:px-12">
+          <Typography variant="h3" color="white" className="font-medium ts-1">
             {benefit.title}
           </Typography>
         </CardBody>
       </Card>
       <Card
         shadow={true}
-        className="grid h-[20rem] w-80 items-end justify-center overflow-hidden text-center back absolute top-0 border-gray-500 border-solid border bg-primary-color"
+        className="grid h-[20rem] w-80 items-start justify-center overflow-hidden back absolute top-0 bg-primary-color"
         style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
       >
-        <CardBody className="pb-14 px-6 md:px-12 rounded-xl border-b-2 border-white">
-          <Typography className="mb-4 text-cyan-50 ts-1 font-medium">
+        <CardBody className="px-4 pt-16 md:px-12 rounded-xl">
+          <Typography className="text-cyan-50 ts-1 font-medium">
             {benefit.description}
           </Typography>
         </CardBody>

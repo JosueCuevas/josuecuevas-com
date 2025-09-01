@@ -23,8 +23,8 @@
   "about": {
     "h2": "About Me",
     "h3_1": "Hard Skills",
-    "aboutMeText_1": "Hi, I'm Josué Cuevas, a passionate web developer dedicated to crafting exceptional digital businesses. With more than 2 years of experience independently. I believe that effective communication and collaboration are paramount, and I thrive in dynamic environments where I can contribute my technical expertise while collaborating closely with clients, designers, and fellow developers.",
-    "aboutMeText_2": "Whether it's building responsive front-end experiences, optimizing performance, or designing scalable back-end solutions, I approach every project with enthusiasm and dedication.If you are looking for a reliable and detail-oriented web developer who is committed to delivering excellence, I would love to hear from you.",
+    "aboutMeText_1": "Hi, I'm Josué Cuevas, a passionate programmer dedicated to crafting exceptional digital businesses. +3 years as software developer. I believe in communication as well as in teamwork to achieve the best results. I thrive in dynamic environments where I can contribute my technical expertise while collaborating closely with clients, designers, and fellow developers. ",
+    "aboutMeText_2": "I specialize in creating responsive, user-friendly websites that not only look great but also deliver seamless functionality across all devices. My goal is to help businesses establish a strong online presence through innovative solutions that drive engagement and growth.",
     "blockQuote": "Making Digital Business",
     "h3_2": "Soft Skills",
     "softSkills": [
@@ -41,7 +41,7 @@
     ]
   },
   "portfolio": {
-    "h2": "My Projects",
+    "h2": "What I've Built",
     "projects": [
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1695398080/josuecuevas-com/images/Captura_de_pantalla_2023-09-22_095414_jftn7q.png",
@@ -217,7 +217,7 @@
     "text_2": "Technologies used for this project"
   },
   "services": {
-    "h2_1": "What can I do for you?",
+    "h2_1": "What can I do for you...",
     "h2_2": "By choosing my services, you can expect:",
     "services": [
       {
