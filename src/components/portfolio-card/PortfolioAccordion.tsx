@@ -4,7 +4,6 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { TechUsed } from "../../interfaces/generalStructure";
 
 type IconProps = {
   id: number;
@@ -29,7 +28,7 @@ function Icon({ id, open }: IconProps) {
 }
 
 type Props = {
-  techUsed: TechUsed[];
+  techUsed: string[];
   text_2: string;
 };
 
@@ -46,11 +45,16 @@ export default function PortfolioAccordion({ techUsed, text_2 }: Props) {
         {text_2}
       </AccordionHeader>
       <AccordionBody>
-        <div className="flex flex-wrap gap-3 mt-7 justify-center ">
-          {techUsed.map((icon, i) => (
-            <img src={icon.url} alt={icon.alt} className="w-8 h-8" key={i} />
+        <ul className="flex flex-wrap gap-3 mt-7 justify-start">
+          {techUsed.map((el) => (
+            <li
+              key={crypto.randomUUID()}
+              className="bg-linear-gray/50 text-xs text-neutral-800 font-semibold px-3 py-1 rounded-full"
+            >
+              {el}
+            </li>
           ))}
-        </div>
+        </ul>
       </AccordionBody>
     </Accordion>
   );

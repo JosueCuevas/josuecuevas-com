@@ -24,7 +24,7 @@
   "about": {
     "h2": "Acerca de mí",
     "h3_1": "Habilidades Técnicas",
-    "aboutMeText_1": "Hola, Soy Josué Cuevas un apasionado programador dedicado a crear negocios digitales excepcionales. Con 3 años de experiencia como desarrollador de software. Creo en la comunicación asi como en la colaboración efectiva y prospero en entornos dinámicos donde puedo contribuir con mi experiencia técnica mientras colaboro estrechamente con clientes, diseñadores y compañeros desarrolladores.",
+    "aboutMeText_1": "Hola, Soy Josué Cuevas, un apasionado programador dedicado a crear negocios digitales excepcionales. Con 3 años de experiencia como desarrollador de software. Creo en la comunicación asi como en la colaboración efectiva y prospero en entornos dinámicos donde puedo contribuir con mi experiencia técnica mientras colaboro estrechamente con clientes, diseñadores y compañeros desarrolladores.",
     "aboutMeText_2": "Me especializo en crear experiencias de usuario atractivas, optimizar el rendimiento de aplicaciones y desarrollar soluciones backend robustas. Si buscas un desarrollador comprometido con la calidad y la innovación, estaré encantado de colaborar contigo.",
     "blockQuote": "Creando Negocios Digitales",
     "h3_2": "Habilidades Blandas",
@@ -43,179 +43,158 @@
   },
   "portfolio": {
     "h2": "¿Qué he hecho?",
-    "projects": [
+    "h3_1": "Experiencia Profesional",
+    "h3_2": "Experiencia Independiente",
+    "professional_projects": [
       {
-        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1695398080/josuecuevas-com/images/Captura_de_pantalla_2023-09-22_095414_jftn7q.png",
-        "title": "COVA",
-        "dateProject": "Agosto 2023",
-        "description": "Aplicación Web para optimizar las actividades de una imobiliaria, genera cotizaciones personalizadas que pueden ser descargadas o enviadas por correo y un dashboard de administrador para gestionar la información del proyecto",
-        "urlProject": "https://thelife3d.com/cova/menu/",
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756856235/josuecuevas.com/Logo_Xira_wbejzk.jpg",
+        "title": "Xira",
+        "dateProject": "Noviembre 2023 - Actualidad",
+        "description": "Implementación de proyectos con Inteligencia Artificial, para el sector bancario, telecomunicaciones, salud, atención a clientes, cobranza, seguros, retail, etc · Desarrollo de productos y soluciones robustos y estables utilizando metodologías ágiles · Documentación de productos y soluciones · Cumplimiento con KPIs de desarrollo para cada proyecto implementado garantizando la satisfacción de los clientes",
+        "urlProject": "https://linkedin.com/in/josuecuevas",
         "techUsed": [
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/tailwind-svgrepo-com_1_ly64zz.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519434/josuecuevas-com/tech-icons/typescript-logo-svgrepo-com_1_xkmsyq.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/graphql-svgrepo-com_1_icxzyz.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/postgresql-logo-svgrepo-com_1_ce5tbs.svg",
-            "alt": "icon"
-          }
+          "HTML",
+          "CSS",
+          "Material UI",
+          "JavaScript",
+          "TypeScript",
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "MySQL",
+          "Sequelize",
+          "REST API",
+          "ORACLE DB",
+          "MongoDB",
+          "Redis",
+          "PM2",
+          "NGINX",
+          "AWS",
+          "SCRUM"
+        ]
+      }
+    ],
+    "freelance_projects": [
+      {
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756856875/josuecuevas.com/Liverpool_hxhivd.png",
+        "title": "Sennse Liverpool",
+        "dateProject": "Diciembre 2023",
+        "description": "Solución colaborativa para la gestión de un proyecto inmobiliario, que incluye un cotizador de apartamentos con generación, descarga y envío de archivos PDF, un dashboard para administrar la información de los apartamentos y una página pública para mostrar los apartamentos disponibles",
+        "urlProject": "https://thelife3d.com/urbanaSpace/liverpool",
+        "techUsed": [
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Prisma",
+          "JWT"
+        ]
+      },
+      {
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
+        "title": "Sennse Juarez",
+        "dateProject": "Noviembre 2023",
+        "description": "Diseño e implementación de una plataforma inmobiliaria integral: cotizador de apartamentos con exportación y envío de cotizaciones en PDF, dashboard administrativo para gestión de propiedades y sitio web público para mostrar unidades disponibles.",
+        "urlProject": "https://thelife3d.com/urbanaSpace/juarez",
+        "techUsed": [
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Prisma",
+          "JWT"
         ]
       },
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
         "title": "OaxaTech",
-        "dateProject": "Mayo 2023",
+        "dateProject": "Agosto 2023",
         "description": "Proyecto FullStack donde realicé el diseño, desarrollo y SEO de una tienda en línea para la venta de refacciones dirigida a celulares. Usando la pasarela de pagos de Stripe",
-        "urlProject": "https://www.oaxatech.com",
+        "urlProject": "#",
         "techUsed": [
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/figma_1_tccgdh.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/bootstrap_1_wcfggf.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/sass-svgrepo-com_1_zbhfx8.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519434/josuecuevas-com/tech-icons/typescript-logo-svgrepo-com_1_xkmsyq.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/graphql-svgrepo-com_1_icxzyz.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/postgresql-logo-svgrepo-com_1_ce5tbs.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685557410/josuecuevas-com/tech-icons/stripe-svgrepo-com_zhjfux.svg",
-            "alt": "icon"
-          }
+          "Figma",
+          "Bootstrap",
+          "Sass",
+          "TypeScript",
+          "React.js",
+          "Node.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Stripe"
+        ]
+      },
+      {
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857657/josuecuevas.com/porttica_y8uaow.png",
+        "title": "Porttica",
+        "dateProject": "Mayo 2023",
+        "description": "Desarrollo de una solución digital colaborativa para bienes raíces, que incluye: cotizador interactivo con generación de archivos PDF, panel de administración para la gestión de apartamentos y portal público con listado de propiedades en venta.",
+        "urlProject": "https://thelife3d.com/urbanaSpace/porttica/",
+        "techUsed": [
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Prisma",
+          "JWT"
+        ]
+      },
+      {
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756863307/josuecuevas.com/cova_tw5bfb.png",
+        "title": "COVA",
+        "dateProject": "Febrero 2023",
+        "description": "Creación de un ecosistema web para proyectos inmobiliarios compuesto por un sistema de cotización con descarga/envío en PDF, un dashboard de administración de departamentos y un sitio público para la visualización de inmuebles disponibles.",
+        "urlProject": "https://thelife3d.com/urbanaSpace/cova/",
+        "techUsed": [
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "PostgreSQL",
+          "MongoDB",
+          "Prisma",
+          "JWT"
         ]
       },
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644287/josuecuevas-com/images/my-weather_knnbgp_dhenfx.png",
         "title": "My Weather",
-        "dateProject": "Febrero 2023",
+        "dateProject": "Enero 2023",
         "description": "Proyecto Frontend donde realicé el diseño y desarrollo de una aplicación del clima para reafirmar conocimientos avanzados de React. Consumiendo la API de OpenWeatherMap",
         "urlProject": "https://myclima.vercel.app/",
-        "techUsed": [
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/figma_1_tccgdh.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://styled-components.com/favicon.png",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519433/josuecuevas-com/tech-icons/reactjs-svgrepo-com_1_ntm5jf.svg",
-            "alt": "icon"
-          }
-        ]
+        "techUsed": ["Figma", "HTML", "React.js", "Styled Components"]
       },
       {
-        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644292/josuecuevas-com/images/sennse-buildings_km0igd_lwtw51.png",
-        "title": "Sennse Buildings",
-        "dateProject": "Noviembre 2022",
-        "description": "Proyecto FullStack, realicé el diseño y el desarrollo de una interfaz para monitorear la disponibilidad de los apartamentos que la inmobiliria vende, así como una API para consumir los datos",
-        "urlProject": "https://sennse-building.up.railway.app/edificios/reforma",
-        "techUsed": [
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/css-3_1_qtc0cu.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/js_1_apw8rp.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685558975/josuecuevas-com/tech-icons/express-svgrepo-com_n9hqnm.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/Group_4_hfvn9o.svg",
-            "alt": "icon"
-          }
-        ]
-      },
-      {
-        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644282/josuecuevas-com/images/cotizador-sennse_vujjbi_pslolj.png",
-        "title": "Cotizador Sennse",
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756864411/josuecuevas.com/tabacalera_dr0sfr.png",
+        "title": "Sennse Tabacalera",
         "dateProject": "Septiembre 2022",
-        "description": "Proyecto FullStack donde realizé el desarrollo de un cotizador para calcular el precio de un apartamento en diferentes esquemas de pago. El sitio además crea un archivo pdf que puede ser enviado por email o descargado, con todas la información necesaria",
-        "urlProject": "https://cotizadorsennse-production.up.railway.app/",
+        "description": "Implementación de una solución tecnológica para clientes inmobiliarios: herramienta de cotización con PDFs generados automáticamente, tablero de control para gestión de inventario y página pública para mostrar propiedades activas.",
+        "urlProject": "https://thelife3d.com/tabacalera/",
         "techUsed": [
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/html-5_1_scmqh1.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519430/josuecuevas-com/tech-icons/css-3_1_qtc0cu.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/js_1_apw8rp.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685558975/josuecuevas-com/tech-icons/express-svgrepo-com_n9hqnm.svg",
-            "alt": "icon"
-          },
-          {
-            "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/Group_4_hfvn9o.svg",
-            "alt": "icon"
-          }
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "Node.js",
+          "Express.js",
+          "MySQL",
+          "JWT"
         ]
       }
     ],
     "text_1": "Ver Proyecto",
-    "text_2": "Tecnologías usadas para el proyecto"
+    "text_2": "Tecnologías usadas"
   },
   "services": {
     "h2_1": "Mis servicios",

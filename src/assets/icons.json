@@ -76,6 +76,18 @@
     {
       "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519432/josuecuevas-com/tech-icons/mongodb_1_woi0i4.svg",
       "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756864752/josuecuevas.com/nginx-logo-svgrepo-com_vnu7mn.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756866026/josuecuevas.com/pm2-2_fiqkft.svg",
+      "alt": "icon"
+    },
+    {
+      "url": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756864847/josuecuevas.com/aws-svgrepo-com_v6sytm.svg",
+      "alt": "icon"
     }
   ]
 }

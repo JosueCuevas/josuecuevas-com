@@ -1,8 +1,3 @@
-export type TechUsed = {
-  url: string;
-  alt: string;
-};
-
 export type Nav = {
   link: string;
   href: string;
