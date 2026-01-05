@@ -1,9 +1,5 @@
 import { FaHome, FaInfoCircle } from "react-icons/fa";
-import {
-  MdBusinessCenter,
-  MdConnectWithoutContact,
-  MdOutlineDesignServices,
-} from "react-icons/md";
+import { MdBusinessCenter, MdConnectWithoutContact } from "react-icons/md";
 import { SiCapacitor } from "react-icons/si";
 
 export default [
