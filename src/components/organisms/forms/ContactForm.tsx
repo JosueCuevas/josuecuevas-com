@@ -1,5 +1,18 @@
 import React from "react";
-import { Form, Placeholders } from "../../interfaces/generalStructure";
+import Button from "src/components/ui/Button";
+
+export interface Form {
+  name: string;
+  comments: string;
+  submit: string;
+}
+
+export type Placeholders = {
+  name: string;
+  email: string;
+  comments: string;
+};
+
 interface Props extends Form {
   placeholders: Placeholders;
 }
@@ -24,7 +37,7 @@ const ContactForm: React.FC<Props> = ({
         <div>
           <label
             htmlFor="first_name"
-            className="block mb-2 text-sm font-medium dark:text-white"
+            className="block mb-2 text-sm font-medium"
           >
             {name}
           </label>
@@ -41,7 +54,7 @@ const ContactForm: React.FC<Props> = ({
       <div className="mb-6">
         <label
           htmlFor="email"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          className="block mb-2 text-sm font-medium text-gray-900 "
         >
           Email
         </label>
@@ -57,7 +70,7 @@ const ContactForm: React.FC<Props> = ({
 
       <label
         htmlFor="message"
-        className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        className="block mb-2 text-sm font-medium text-gray-900"
       >
         {comments}
       </label>
@@ -69,12 +82,9 @@ const ContactForm: React.FC<Props> = ({
         placeholder={placeholders.comments}
       ></textarea>
       <div className="flex lg:justify-end">
-        <button
-          type="submit"
-          className="text-white my-8 w-full lg:w-1/3 lg:max-w-[6rem]  bg-accent-color hover:bg-blue-400 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2"
-        >
+        <Button type="submit" className="mt-8">
           {submit}
-        </button>
+        </Button>
       </div>
     </form>
   );

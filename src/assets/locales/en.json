@@ -1,14 +1,6 @@
 {
   "header": {
     "logo": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1686506156/josuecuevas-com/en-h_jnpggv.svg",
-    "nav": [
-      { "link": "HOME", "href": "#home" },
-      { "link": "ABOUT", "href": "#about" },
-      { "link": "PORTFOLIO", "href": "#portfolio" },
-      { "link": "SERVICES", "href": "#services" },
-      { "link": "SKILLS", "href": "#skills" },
-      { "link": "CONTACT", "href": "#contact" }
-    ],
     "flag": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1686512555/josuecuevas-com/flag-for-flag-spain-svgrepo-com_dnrz11.svg"
   },
   "heroImage": {
@@ -22,11 +14,11 @@
   },
   "about": {
     "h2": "About Me",
-    "h3_1": "Hard Skills",
-    "aboutMeText_1": "Hi, I'm Josué Cuevas, a passionate programmer dedicated to crafting exceptional digital businesses. +3 years as software developer. I believe in communication as well as in teamwork to achieve the best results. I thrive in dynamic environments where I can contribute my technical expertise while collaborating closely with clients, designers, and fellow developers. ",
-    "aboutMeText_2": "I specialize in creating responsive, user-friendly websites that not only look great but also deliver seamless functionality across all devices. My goal is to help businesses establish a strong online presence through innovative solutions that drive engagement and growth.",
-    "blockQuote": "Making Digital Business",
-    "h3_2": "Soft Skills",
+    "h3_1": "Technologies I use in real projects:",
+    "aboutMeText_1": "I'm Josué Cuevas, a software developer with 3+ years of experience building real-world web applications. I focus on writing clean, maintainable code and creating interfaces that feel fast, intuitive, and reliable. I enjoy working closely with designers, clients, and developers to turn ideas into scalable digital products.",
+    "aboutMeText_2": "I specialize in frontend development with a strong focus on performance, usability, and maintainability. I have experience building dashboards, public websites, and backend integrations, always aiming to deliver solutions that are easy to extend and pleasant to use.",
+    "blockQuote": "Building digital products that actually work",
+    "h3_2": "How I approach teamwork and problem-solving",
     "softSkills": [
       "Communication",
       "Problem-solving",
@@ -43,7 +35,7 @@
   "portfolio": {
     "h2": "What have I done?",
     "h3_1": "Professional Experience",
-    "h3_2": "Freelance Experience",
+    "h3_2": "Developed Products",
     "professional_projects": [
       {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756856235/josuecuevas.com/Logo_Xira_wbejzk.jpg",
@@ -75,11 +67,11 @@
     ],
     "freelance_projects": [
       {
-        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756856875/josuecuevas.com/Liverpool_hxhivd.png",
-        "title": "Sennse Liverpool",
-        "dateProject": "December 2023",
-        "description": "Collaborative solution for managing a real estate project, including an apartment quoting tool with PDF generation, download and sending, a dashboard to manage apartment information, and a public page to display available apartments.",
-        "urlProject": "https://thelife3d.com/urbanaSpace/liverpool",
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
+        "title": "Real Space",
+        "dateProject": "December 2025",
+        "description": "Designed and developed a real estate sales platform to help agencies improve lead conversion and quotation workflows. Implemented automated quotation and PDF generation for client proposals. Built backend services using Node.js and REST APIs, including authentication and role-based access control.",
+        "urlProject": "https://real-space.netlify.app/login",
         "techUsed": [
           "React.js",
           "TypeScript",
@@ -89,13 +81,13 @@
           "GraphQL",
           "PostgreSQL",
           "Prisma",
-          "JWT"
+          "OAuth2"
         ]
       },
       {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
         "title": "Sennse Juarez",
-        "dateProject": "November 2023",
+        "dateProject": "December 2023",
         "description": "Design and implementation of a comprehensive real estate platform: apartment quoting tool with PDF export and sending, admin dashboard for property management, and public website to display available units.",
         "urlProject": "https://thelife3d.com/urbanaSpace/juarez",
         "techUsed": [
@@ -108,24 +100,6 @@
           "PostgreSQL",
           "Prisma",
           "JWT"
-        ]
-      },
-      {
-        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
-        "title": "OaxaTech",
-        "dateProject": "August 2023",
-        "description": "FullStack project where I designed, developed, and optimized SEO for an online store selling cellphone parts. Using Stripe payment gateway.",
-        "urlProject": "#",
-        "techUsed": [
-          "Figma",
-          "Bootstrap",
-          "Sass",
-          "TypeScript",
-          "React.js",
-          "Node.js",
-          "GraphQL",
-          "PostgreSQL",
-          "Stripe"
         ]
       },
       {
@@ -147,56 +121,37 @@
         ]
       },
       {
-        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756863307/josuecuevas.com/cova_tw5bfb.png",
-        "title": "COVA",
-        "dateProject": "February 2023",
-        "description": "Creation of a web ecosystem for real estate projects consisting of a quoting system with PDF download/sending, a dashboard for apartment administration, and a public site for viewing available properties.",
-        "urlProject": "https://thelife3d.com/urbanaSpace/cova/",
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
+        "title": "OaxaTech",
+        "dateProject": "December 2022",
+        "description": "FullStack project where I designed, developed, and optimized SEO for an online store selling cellphone parts. Using Stripe payment gateway.",
+        "urlProject": "#",
         "techUsed": [
-          "React.js",
+          "Figma",
+          "Bootstrap",
+          "Sass",
           "TypeScript",
-          "Tailwind CSS",
+          "React.js",
           "Node.js",
-          "Express.js",
           "GraphQL",
           "PostgreSQL",
-          "MongoDB",
-          "Prisma",
-          "JWT"
+          "Stripe"
         ]
       },
       {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644287/josuecuevas-com/images/my-weather_knnbgp_dhenfx.png",
         "title": "My Weather",
-        "dateProject": "January 2023",
+        "dateProject": "September 2022",
         "description": "Frontend project where I designed and developed a weather application to reinforce advanced React knowledge. Consuming the OpenWeatherMap API.",
         "urlProject": "https://myclima.vercel.app/",
         "techUsed": ["Figma", "HTML", "React.js", "Styled Components"]
-      },
-      {
-        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756864411/josuecuevas.com/tabacalera_dr0sfr.png",
-        "title": "Sennse Tabacalera",
-        "dateProject": "September 2022",
-        "description": "Implementation of a technological solution for real estate clients: quoting tool with automatically generated PDFs, control dashboard for inventory management, and public page to display active properties.",
-        "urlProject": "https://thelife3d.com/tabacalera/",
-        "techUsed": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Bootstrap",
-          "Node.js",
-          "Express.js",
-          "MySQL",
-          "JWT"
-        ]
       }
     ],
     "text_1": "View Project",
     "text_2": "Technologies used for the project"
   },
   "services": {
-    "h2_1": "What can I do for you...",
-    "h2_2": "By choosing my services, you can expect:",
+    "h2_1": "How I work",
     "services": [
       {
         "title": "Front-end Development",
@@ -226,29 +181,24 @@
     ],
     "benefits": [
       {
-        "title": "Quality Craftsmanship",
-        "description": "I take pride in delivering clean, well-structured code that adheres to industry best practices, ensuring your project is reliable, maintainable, and scalable.",
-        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644316/josuecuevas-com/images/quality_fmoi9l_k3ydul.webp"
+        "title": "🧠 Clear Architecture",
+        "description": "I design scalable solutions built to grow without technical debt."
       },
       {
-        "title": "Attention to Details",
-        "description": "I pay close attention to your project requirements, ensuring every aspect is meticulously planned and executed to meet your objectives.",
-        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644289/josuecuevas-com/images/details_zcj6gt_aapkaw.webp"
+        "title": "⚡ Product Focus",
+        "description": "I don’t just develop features; I build usable and maintainable solutions."
       },
       {
-        "title": "Collaborative Approach",
-        "description": "I believe in open communication and collaboration throughout the development process, ensuring that your vision is translated into a successful digital solution.",
-        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/collaborative_lyx9gh_aixc6p.webp"
+        "title": "🔍 Attention to Detail",
+        "description": "Clean code, testing, and clear documentation for real teams."
       },
       {
-        "title": "Timely Delivery",
-        "description": "I understand the importance of meeting deadlines. I strive to deliver projects within agreed timelines without compromising on quality.",
-        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644334/josuecuevas-com/images/time_lmi0cp_qfxsyg.webp"
+        "title": "🤝 Constant Communication",
+        "description": "I work aligned with business, design, and stakeholders."
       },
       {
-        "title": "Exceptional Support",
-        "description": "Even after project completion, I provide ongoing support and assistance to address any concerns or updates you may require.",
-        "imgUrl": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644318/josuecuevas-com/images/support_izccmh_wk9ad4.webp"
+        "title": "🚀 Reliable Delivery",
+        "description": "Realistic planning, clear priorities, and measurable results."
       }
     ]
   },

@@ -1,51 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* ********** Custom Properties ********** */
-/* :root {
-  --bg-color--: #ffffff;
-  --neutral-color: #333;
-} */
-/* ********** Reset ********** */
-html {
-  font-family: "Montserrat", sans-serif;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-a {
-  font-weight: 500;
-  text-decoration: none;
+@theme {
+  --color-app-first: #00b0ff;
+  --color-app-second: #3c5c75;
+  --color-app-mask: #000000bf;
+  --color-app-third: #6c757d;
+  --color-app-dark: #121212;
+  --color-app-neutral: #333;
+  --color-app-soft: #f0f0f0;
 }
 
 body {
   overflow-x: hidden;
 }
 
-/* ********** Components ********** */
-/* ********** Utilities ********** */
-.ts-1 {
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
-    0px 1px 3px rgba(0, 0, 0, 0.2);
+.perspective {
+  perspective: 600px;
 }
-/* ********** Site Styles ********** */
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.rotate-x-90 {
+  transform: rotateX(90deg);
 }
- */
+
+.rotate-x-0 {
+  transform: rotateX(0deg);
+}
