@@ -30,7 +30,10 @@ const Skills: React.FC = () => {
   };
 
   return (
-    <MainLayout className="h-auto py-16 bg-white bg-radial from-app-third/10 to-app-soft to-95%">
+    <MainLayout
+      className="h-auto py-16 bg-white bg-radial from-app-third/10 to-app-soft to-95%"
+      id="skills"
+    >
       {/* <h3
         className="text-2xl text-center my-4 lg:my-8 font-medium lg:text-4xl"
         id="skills"

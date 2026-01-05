@@ -50,7 +50,7 @@ const HeroImage: React.FC = () => {
   }, [words.length]);
 
   return (
-    <MainLayout>
+    <MainLayout id="home">
       <section className="h-full bg-[url(https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644290/josuecuevas-com/images/hero-image_gvtzcu_arfi1x.webp)] bg-no-repeat bg-center bg-cover bg-fixed">
         <article className="bg-app-mask pt-12 h-full">
           <div className="h-full container mx-auto flex flex-col justify-center text-white md:justify-end md:pb-16 px-3">

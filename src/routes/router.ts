@@ -33,14 +33,6 @@ export default [
   },
   {
     label: {
-      en: "Services",
-      es: "Servicios",
-    },
-    path: "#services",
-    icon: MdOutlineDesignServices({}),
-  },
-  {
-    label: {
       en: "Skills",
       es: "Habilidades",
     },

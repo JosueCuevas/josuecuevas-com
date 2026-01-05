@@ -13,7 +13,10 @@ const r = {
 const Portfolio: React.FC = () => {
   const { lang } = useLanguageStore();
   return (
-    <MainLayout className="md:px-4 container mx-auto py-16 h-full">
+    <MainLayout
+      className="md:px-4 container mx-auto py-16 h-full"
+      id="portfolio"
+    >
       <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
         {r[lang].portfolio.h2}
       </h2>
