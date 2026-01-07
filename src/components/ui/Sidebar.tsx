@@ -14,20 +14,23 @@ const Sidebar: React.FC<Props & HTMLAttributes<HTMLDivElement>> = (props) => {
   return (
     <div
       className={twMerge(
-        "absolute top-0 left-0 right-0 bottom-0 flex z-50 ",
+        "fixed top-0 left-0 right-0 bottom-0 flex z-50 ",
         props.className
       )}
-      onClick={(e) => {
-        if (e.target === e.currentTarget) {
-          props.toggle();
-        }
-      }}
     >
-      <div className="w-7/12 bg-app-mask" />
+      <div
+        className="w-7/12 bg-app-mask"
+        onClick={(e) => {
+          if (e.target === e.currentTarget) {
+            props.toggle();
+          }
+        }}
+      />
       <div className="w-5/12 bg-app-dark">
         <Button
           variant="icon"
           className="bg-transparent cursor-pointer block ml-auto p-3 hover:text-app-first text-xl"
+          onClick={props.toggle}
         >
           <GrClose />
         </Button>
