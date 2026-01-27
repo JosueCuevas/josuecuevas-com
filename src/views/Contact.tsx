@@ -24,10 +24,7 @@ const r = {
 const Contact: React.FC = () => {
   const { lang } = useLanguageStore();
   return (
-    <MainLayout
-      className="pb-4 md:px-4 container mx-auto min-h-screen"
-      id="contact"
-    >
+    <MainLayout className="pb-4 md:px-4 container mx-auto" id="contact">
       <h2 className="text-2xl ts-1 text-center mt-4 font-semibold lg:text-4xl lg:mt-8">
         {r[lang].contact.h1}
       </h2>
