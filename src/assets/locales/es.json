@@ -73,7 +73,7 @@
         "title": "Real Space",
         "dateProject": "Diciembre 2025",
         "description": "Diseñé y desarrollé una plataforma inmobiliaria para ayudar a agencias a mejorar la conversión de leads y el proceso de cotización. Implementé generación automática de cotizaciones y documentos PDF para propuestas comerciales. Construí servicios backend utilizando Node.js y APIs REST, incluyendo autenticación y control de acceso basado en roles.",
-        "urlProject": "https://real-space.netlify.app/login",
+        "urlProject": "https://realspacehub.com",
         "techUsed": [
           "React.js",
           "TypeScript",
