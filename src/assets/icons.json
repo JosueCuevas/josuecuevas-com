@@ -33,7 +33,8 @@
         "Bash",
         "Nginx",
         "PM2",
-        "AWS (basic cloud deployments)"
+        "AWS (basic cloud deployments)",
+        "Docker"
       ]
     }
   },
@@ -143,6 +144,11 @@
       "name": "AWS",
       "category": "DevOps",
       "url": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756864847/josuecuevas.com/aws-svgrepo-com_v6sytm.svg"
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "url": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1772538748/docker-svgrepo-com_ganige.svg"
     }
   ]
 }
