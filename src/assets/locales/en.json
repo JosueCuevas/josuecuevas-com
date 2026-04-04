@@ -85,6 +85,24 @@
         ]
       },
       {
+        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
+        "title": "OaxaTech",
+        "dateProject": "August 2023",
+        "description": "FullStack project where I designed, developed, and optimized SEO for an online store selling cellphone parts. Using Stripe payment gateway.",
+        "urlProject": "#",
+        "techUsed": [
+          "Figma",
+          "Bootstrap",
+          "Sass",
+          "TypeScript",
+          "React.js",
+          "Node.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Stripe"
+        ]
+      },
+      {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857657/josuecuevas.com/porttica_y8uaow.png",
         "title": "Porttica",
         "dateProject": "May 2023",
@@ -100,24 +118,6 @@
           "PostgreSQL",
           "Prisma",
           "JWT"
-        ]
-      },
-      {
-        "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644296/josuecuevas-com/images/oaxatech_drxow8_um18hu.png",
-        "title": "OaxaTech",
-        "dateProject": "December 2022",
-        "description": "FullStack project where I designed, developed, and optimized SEO for an online store selling cellphone parts. Using Stripe payment gateway.",
-        "urlProject": "#",
-        "techUsed": [
-          "Figma",
-          "Bootstrap",
-          "Sass",
-          "TypeScript",
-          "React.js",
-          "Node.js",
-          "GraphQL",
-          "PostgreSQL",
-          "Stripe"
         ]
       },
       {
