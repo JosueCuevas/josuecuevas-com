@@ -69,24 +69,6 @@
     ],
     "freelance_projects": [
       {
-        "image": "",
-        "title": "Real Space",
-        "dateProject": "Diciembre 2025",
-        "description": "Diseñé y desarrollé una plataforma inmobiliaria para ayudar a agencias a mejorar la conversión de leads y el proceso de cotización. Implementé generación automática de cotizaciones y documentos PDF para propuestas comerciales. Construí servicios backend utilizando Node.js y APIs REST, incluyendo autenticación y control de acceso basado en roles.",
-        "urlProject": "https://realspacehub.com",
-        "techUsed": [
-          "React.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Node.js",
-          "Express.js",
-          "GraphQL",
-          "PostgreSQL",
-          "Prisma",
-          "OAuth2"
-        ]
-      },
-      {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
         "title": "Sennse Juarez",
         "dateProject": "Diciembre 2023",
@@ -141,9 +123,27 @@
         ]
       },
       {
+        "image": "",
+        "title": "Real Space",
+        "dateProject": "Septiembre 2022",
+        "description": "Diseñé y desarrollé una plataforma inmobiliaria para ayudar a agencias a mejorar la conversión de leads y el proceso de cotización. Implementé generación automática de cotizaciones y documentos PDF para propuestas comerciales. Construí servicios backend utilizando Node.js y APIs REST, incluyendo autenticación y control de acceso basado en roles.",
+        "urlProject": "https://realspacehub.com",
+        "techUsed": [
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Prisma",
+          "OAuth2"
+        ]
+      },
+      {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644287/josuecuevas-com/images/my-weather_knnbgp_dhenfx.png",
         "title": "My Weather",
-        "dateProject": "Septiembre 2022",
+        "dateProject": "Junio 2022",
         "description": "Proyecto Frontend donde realicé el diseño y desarrollo de una aplicación del clima para reafirmar conocimientos avanzados de React. Consumiendo la API de OpenWeatherMap",
         "urlProject": "https://myclima.vercel.app/",
         "techUsed": ["Figma", "HTML", "React.js", "Styled Components"]

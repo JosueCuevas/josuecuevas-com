@@ -68,24 +68,6 @@
     "freelance_projects": [
       {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
-        "title": "Real Space",
-        "dateProject": "December 2025",
-        "description": "Designed and developed a real estate sales platform to help agencies improve lead conversion and quotation workflows. Implemented automated quotation and PDF generation for client proposals. Built backend services using Node.js and REST APIs, including authentication and role-based access control.",
-        "urlProject": "https://realspacehub.com",
-        "techUsed": [
-          "React.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Node.js",
-          "Express.js",
-          "GraphQL",
-          "PostgreSQL",
-          "Prisma",
-          "OAuth2"
-        ]
-      },
-      {
-        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
         "title": "Sennse Juarez",
         "dateProject": "December 2023",
         "description": "Design and implementation of a comprehensive real estate platform: apartment quoting tool with PDF export and sending, admin dashboard for property management, and public website to display available units.",
@@ -139,9 +121,27 @@
         ]
       },
       {
+        "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
+        "title": "Real Space",
+        "dateProject": "September 2025",
+        "description": "Designed and developed a real estate sales platform to help agencies improve lead conversion and quotation workflows. Implemented automated quotation and PDF generation for client proposals. Built backend services using Node.js and REST APIs, including authentication and role-based access control.",
+        "urlProject": "https://realspacehub.com",
+        "techUsed": [
+          "React.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "PostgreSQL",
+          "Prisma",
+          "OAuth2"
+        ]
+      },
+      {
         "image": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685644287/josuecuevas-com/images/my-weather_knnbgp_dhenfx.png",
         "title": "My Weather",
-        "dateProject": "September 2022",
+        "dateProject": "June 2022",
         "description": "Frontend project where I designed and developed a weather application to reinforce advanced React knowledge. Consuming the OpenWeatherMap API.",
         "urlProject": "https://myclima.vercel.app/",
         "techUsed": ["Figma", "HTML", "React.js", "Styled Components"]
