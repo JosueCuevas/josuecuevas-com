@@ -15,7 +15,7 @@
   "about": {
     "h2": "About Me",
     "h3_1": "Technologies I use in real projects:",
-    "aboutMeText_1": "I'm Josué Cuevas, a software developer with 3+ years of experience building real-world web applications. I focus on writing clean, maintainable code and creating interfaces that feel fast, intuitive, and reliable. I enjoy working closely with designers, clients, and developers to turn ideas into scalable digital products.",
+    "aboutMeText_1": "I'm Josué Cuevas, a software developer with 4+ years of experience building real-world web applications. I focus on writing clean, maintainable code and creating interfaces that feel fast, intuitive, and reliable. I enjoy working closely with designers, clients, and developers to turn ideas into scalable digital products.",
     "aboutMeText_2": "I specialize in frontend development with a strong focus on performance, usability, and maintainability. I have experience building dashboards, public websites, and backend integrations, always aiming to deliver solutions that are easy to extend and pleasant to use.",
     "blockQuote": "Building digital products that actually work",
     "h3_2": "How I approach teamwork and problem-solving",
@@ -37,6 +37,27 @@
     "h3_1": "Professional Experience",
     "h3_2": "Developed Products",
     "professional_projects": [
+      {
+        "image": "https://media.licdn.com/dms/image/v2/D560BAQFkRt6Sx8_wpw/company-logo_200_200/B56Z84ps6uGsAI-/0/1783361884036/cubbo_logo?e=1785974400&v=beta&t=GTEbuv74y0u-A-102D2wzhmgm_NaRg1A_BYfIU3NCHg",
+        "title": "Cubbo",
+        "dateProject": "April 2026 - Present",
+        "description": "Build backend services and core infrastructure for a logistics platform processing over 12 million packages annually across Latin America. Design scalable, high-performance APIs, optimize mission-critical systems, drive architectural decisions, integrate with major marketplaces and carriers, resolve production incidents, and continuously improve platform reliability using Ruby on Rails, PostgreSQL, Heroku, and AI-assisted development tools.",
+        "urlProject": "https://cubbo.com",
+        "techUsed": [
+          "HTML",
+          "CSS",
+          "Tailwind CSS",
+          "JavaScript",
+          "React.js",
+          "Ruby",
+          "Rails",
+          "Sidekiq",
+          "PostgreSQL",
+          "REST API",
+          "Heroku",
+          "Claude Code"
+        ]
+      },
       {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756856235/josuecuevas.com/Logo_Xira_wbejzk.jpg",
         "title": "Xira",

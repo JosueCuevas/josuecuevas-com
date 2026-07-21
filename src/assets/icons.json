@@ -18,6 +18,8 @@
       "title": "Backend & APIs",
       "items": [
         "Node.js",
+        "Ruby",
+        "Python",
         "REST APIs",
         "GraphQL",
         "Authentication & Authorization",
@@ -94,6 +96,16 @@
       "name": "Node.js",
       "category": "Backend",
       "url": "https://res.cloudinary.com/dokbqdk6g/image/upload/v1685519431/josuecuevas-com/tech-icons/nodejs_1_egfcpg.svg"
+    },
+    {
+      "name": "Ruby",
+      "category": "Backend",
+      "url": "https://josuecuevas.com/images/ruby-icon.svg"
+    },
+    {
+      "name": "Python",
+      "category": "Backend",
+      "url": "https://josuecuevas.com/images/python-icon.svg"
     },
     {
       "name": "GraphQL",
