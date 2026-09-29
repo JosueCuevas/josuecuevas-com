@@ -20,6 +20,8 @@
         "Node.js",
         "Ruby",
         "Python",
+        "PHP",
+        "WordPress",
         "REST APIs",
         "GraphQL",
         "Authentication & Authorization",
@@ -36,7 +38,8 @@
         "Nginx",
         "PM2",
         "AWS (basic cloud deployments)",
-        "Docker"
+        "Docker",
+        "Web security hardening"
       ]
     }
   },
@@ -161,6 +164,16 @@
       "name": "Docker",
       "category": "DevOps",
       "url": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1772538748/docker-svgrepo-com_ganige.svg"
+    },
+    {
+      "name": "PHP",
+      "category": "Backend",
+      "url": "https://josuecuevas.com/images/php-icon.svg"
+    },
+    {
+      "name": "WordPress",
+      "category": "CMS",
+      "url": "https://josuecuevas.com/images/wordpress-icon.svg"
     }
   ]
 }

@@ -90,6 +90,22 @@
     ],
     "freelance_projects": [
       {
+        "image": "",
+        "title": "ADYSA",
+        "dateProject": "Septiembre 2026",
+        "description": "Reinstalación, optimización y endurecimiento de seguridad de un sitio corporativo en WordPress tras un compromiso de seguridad. Reconstrucción limpia a partir de respaldos verificados con SHA-256, saneamiento de la base de datos, actualización a WordPress 7.1 y reinstalación de todos los plugins desde fuentes oficiales. Implementé un monitor de integridad de archivos en PHP ejecutado por cron cada 15 minutos con alertas por correo, cerré el vector de entrada, eliminé cuentas administrativas no autorizadas y validé el despliegue en un entorno de pruebas con Docker antes de publicarlo.",
+        "urlProject": "https://adysa.mx",
+        "techUsed": [
+          "WordPress",
+          "PHP",
+          "MySQL",
+          "Apache",
+          "Bash",
+          "Docker",
+          "IONOS"
+        ]
+      },
+      {
         "image": "https://res.cloudinary.com/de2xaf9jy/image/upload/v1756857386/josuecuevas.com/Juarez_boh7iu.png",
         "title": "Sennse Juarez",
         "dateProject": "Diciembre 2023",
